@@ -34,7 +34,6 @@ periodo = selecionar_horario()
 diretorio = (f"C:\\{data_atual}-{periodo}\\") 
 #diretorio = (f"C:\\Users\\seu_usuario\\Pictures\\{data_atual}-{periodo}\\") 
 
-
 os.makedirs(diretorio,exist_ok=True) # Cria o diretório com o nome da pasta.'
 
        
@@ -43,8 +42,6 @@ os.makedirs(diretorio,exist_ok=True) # Cria o diretório com o nome da pasta.'
 link_1  = "https://www.globo.com"
 link_2 =  'https://www.youtube.com.br'
 link_3 =  'https://www.uol.com.br'
-
-#diretorio = (f"C:\\Users\\olive\\Pictures\\{data_atual}\\") 
 
 pyautogui.hotkey("win","r")
 pyautogui.write("chrome --start-maximized")
