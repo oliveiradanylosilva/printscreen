@@ -75,5 +75,7 @@ time.sleep(2)
 #CloseChrome
 pyautogui.hotkey("alt","F4") 
 
+
+
 print(f'Execução concluída com sucesso.Prints salvos no diretório: {diretorio}')
 
